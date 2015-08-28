@@ -1,0 +1,41 @@
+{
+  "author": {
+    "name": "Y. Mayer",
+    "email": "whythecode@gmail.com",
+    "url": "https://github.com/whythecode"
+  },
+  "contributors": [],
+  "description": "Command-line tool for getting a diff between the returned JSON Data of two given API endpoints",
+  "homepage": "https://github.com/whythecode/diff-a-json",
+  "license": "MIT",
+  "name": "diff-a-json",
+  "version": "1.0.0",
+  "keywords": [
+    "json",
+    "api",
+    "diff"
+  ],
+  "bugs": {
+    "url": "https://github.com/whythecode/diff-a-json/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:whythecode/diff-a-json.git"
+  },
+  "bin": {
+    "diffajson": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "chalk": "~1.1.1",
+    "minimist": "~1.2.0",
+    "q": "~1.4.1",
+    "request": "~2.61.0",
+    "temp": "^0.8.3"
+  }
+}
