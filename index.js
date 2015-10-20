@@ -156,7 +156,7 @@ function sortAndStoreJson( data, filepath, deferred, sort ) {
  */
 function sortObj( object ) {
 
-  var newobj = {}
+  var newobj = Array.isArray( object ) ? [] : {}
   Object.keys( object ).sort().forEach( function( key ) {
 
     var value = object[ key ]
