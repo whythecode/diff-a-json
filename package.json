@@ -9,7 +9,7 @@
   "homepage": "https://github.com/whythecode/diff-a-json",
   "license": "MIT",
   "name": "diff-a-json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "json",
     "api",
